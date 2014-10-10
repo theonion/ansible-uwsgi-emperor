@@ -1,0 +1,3 @@
+---
+uwsgi_install_method: pip
+uwsgi_version: ~
