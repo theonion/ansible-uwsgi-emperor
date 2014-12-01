@@ -9,6 +9,3 @@
 
 - name: Make sure uwsgi-emperor is running (and runs on boot)
   service: name=uwsgi-emperor state=started enabled=yes
-
-- include: test.yml
-  when: run_tests
